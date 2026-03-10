@@ -17,7 +17,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                sh 'mvn clean compile'
+                sh 'mvn clean package'
             }
         }
 
@@ -26,7 +26,7 @@ pipeline {
 
                 stage('Unit Test') {
                     steps {
-                        sh 'echo Running unit tests...'
+                        sh 'mvn test.'
                     }
                 }
 
@@ -59,6 +59,7 @@ pipeline {
         }
     }
 }
+
 
 
 
