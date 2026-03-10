@@ -11,7 +11,8 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/kavyadevops4/Java-Maven-Project.git'
+                git branch: 'main', url: 'https://github.com/kavyadevops4/Java-Maven-Project.git'
+                
             }
         }
 
@@ -54,6 +55,7 @@ pipeline {
         }
     }
 }
+
 
 
 
