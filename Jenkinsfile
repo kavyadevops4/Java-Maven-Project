@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourusername/simple-java-app.git'
+                git 'https://github.com/kavyadevops4/Java-Maven-Project.git'
             }
         }
 
@@ -54,5 +54,6 @@ pipeline {
         }
     }
 }
+
 
 
