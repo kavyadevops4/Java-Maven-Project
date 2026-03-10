@@ -47,13 +47,12 @@ pipeline {
                 }
             }
         }
-
-        stage('Upload to Nexus') {
+        stage('Post-Build') {
             steps {
-                sh 'mvn deploy'
+                echo "Build completed successfully."
             }
         }
-
     }
 }
+
 
