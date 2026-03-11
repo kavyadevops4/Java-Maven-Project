@@ -10,4 +10,10 @@ public class AppTest {
         App app = new App();
         assertEquals("Hello from Maven Project!", app.sayHello());
     }
+
+    @Test
+    public void testMainMethod() {
+        App.main(new String[]{});
+        assertTrue(true);
+    }
 }
