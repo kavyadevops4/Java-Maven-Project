@@ -105,7 +105,7 @@
 
  <distributionManagement>
   <repository>
-   <id>nexus-releases</id>
+   <id>nexus-snapshots</id>
    <url>http://56.228.21.44:8081/repository/Java-maven.package/</url>
   </repository>
  </distributionManagement>
