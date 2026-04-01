@@ -107,7 +107,7 @@
 
     <snapshotRepository>
         <id>nexus-snapshots</id>
-        <url>http://13.60.43.198:8081/repository/java-pacakges/</url>
+        <url>http://13.60.43.198:8081/repository/java-packages/</url>
     </snapshotRepository>
 
 </distributionManagement>
