@@ -7,7 +7,7 @@
 
     <groupId>com.mycompany.app</groupId>
     <artifactId>my-app</artifactId>
-    <version>1.0-snapshot</version> <!-- RELEASE version -->
+    <version>1.0</version> <!-- RELEASE version -->
     <packaging>jar</packaging>
 
     <name>my-app</name>
